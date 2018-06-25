@@ -1,0 +1,19 @@
+﻿exports.handler = (event, context, callback) => {
+
+    // TODO implement
+   
+    
+var returnObj = {
+
+
+
+        "type" : "buttons",
+        "buttons" : [
+              "방문자 등록"
+	         ]
+ 	};      
+	callback(null, returnObj);
+
+return;
+
+};

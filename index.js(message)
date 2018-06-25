@@ -1,0 +1,17 @@
+﻿exports.handler = (event, context, callback) => {
+
+    // TODO implement
+   
+    
+var okObj = {
+
+
+        "message": {
+
+        "text" : "방문등록이 정상적으로 완료되었습니다!" 
+	         }
+ 	};      
+	callback(null, okObj);
+
+return;
+};
